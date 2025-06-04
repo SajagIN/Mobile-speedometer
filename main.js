@@ -12,7 +12,7 @@ function createWindow () {
   win = new BrowserWindow({width: 800, height: 600, resizable: true, title: 'AI Project | Sajag Kamthan', icon: path.join(__dirname, './favicon8.ico') })
  
   // and load the index.html of the app.
-  win.loadURL('https://codewhiteweb.cf/speedometertest')
+  win.loadURL('https://SajagIN.github.io/speedometertest')
 }
 
 app.on('ready', createWindow)
